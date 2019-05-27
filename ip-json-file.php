@@ -22,7 +22,7 @@
         /*
          * load file.
          */
-        $jSONFile = file_get_contents("./json/ips.json");
+        $jSONFile = file_get_contents("ips.json");
         $ipsObj = json_decode($jSONFile);
     ?>
 
