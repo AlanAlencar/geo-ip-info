@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+}
+nav {
+    position: absolute;
+    left: 0;
+    width: 200;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    padding: 1em;
+}
+section {
+    /* position is static by default */
+    margin-left: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+    padding: 1em;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    background-color: rgb(73, 101, 210);
+    color: azure;
+    width: 100%;
+}
+body {
+    margin-bottom: 10px;
+}
+h3 {
+    color: blue;
+}
+.destaque {
+    font-weight: bold;
+    color: darkgreen;
+}
